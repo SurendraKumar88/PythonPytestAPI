@@ -3,7 +3,10 @@ import json
 import jsonpath
 import requests as requests
 
-#from requestData.test_PostServicePayload import TestPostServicesPaylods
+
+
+
+
 
 
 class TestCreateSingleUser:
@@ -11,7 +14,6 @@ class TestCreateSingleUser:
     def test_create_single_user(self):
         url = "https://reqres.in/api/users"
         payload = TestCreateSingleUser().create_single_user_request_data()
-        #payload = TestPostServicesPaylods().create_single_user_request_data()
         request_data = json.loads(json.dumps(payload))
 
         response = requests.post(url, request_data)
