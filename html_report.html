@@ -253,7 +253,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>html_report.html</h1>
-    <p>Report generated on 24-Feb-2023 at 18:24:33 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 27-Feb-2023 at 13:41:19 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -269,8 +269,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.11.2</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 27.93 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>8 tests ran in 4.53 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">8 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -284,48 +284,95 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
+          <td class="col-name">API_Tests/test_create_single_user.py::TestCreateSingleUser::test_create_single_user</td>
+          <td class="col-duration">0.70</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Response code: 201
+Response length: 80
+963
+arun
+leader
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">API_Tests/test_delete_user.py::TestDeleteUser::test_deleteuser</td>
+          <td class="col-duration">0.85</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>204
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
           <td class="col-name">API_Tests/test_end_to_end.py::TestEndToEnd::test_create_student</td>
-          <td class="col-duration">9.16</td>
+          <td class="col-duration">0.43</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>url: https://thetestingworldapi.com/api/studentsDetails
 request_data: {&#x27;first_name&#x27;: &#x27;surendra1&#x27;, &#x27;middle_name&#x27;: &#x27;kumar&#x27;, &#x27;last_name&#x27;: &#x27;tv&#x27;, &#x27;date_of_birth&#x27;: &#x27;07-11-1993&#x27;}
-response: {&#x27;id&#x27;: 7117205, &#x27;first_name&#x27;: &#x27;surendra1&#x27;, &#x27;middle_name&#x27;: &#x27;kumar&#x27;, &#x27;last_name&#x27;: &#x27;tv&#x27;, &#x27;date_of_birth&#x27;: &#x27;07-11-1993&#x27;}
-7117205
+response: {&#x27;id&#x27;: 7117683, &#x27;first_name&#x27;: &#x27;surendra1&#x27;, &#x27;middle_name&#x27;: &#x27;kumar&#x27;, &#x27;last_name&#x27;: &#x27;tv&#x27;, &#x27;date_of_birth&#x27;: &#x27;07-11-1993&#x27;}
+7117683
 <br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">API_Tests/test_end_to_end.py::TestEndToEnd::test_add_technical_details_to_student</td>
-          <td class="col-duration">5.47</td>
+          <td class="col-duration">0.39</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>url: https://thetestingworldapi.com/api/technicalskills
-request_data: {&#x27;id&#x27;: 7117205, &#x27;language&#x27;: [&#x27;Java&#x27;, &#x27;Python&#x27;], &#x27;yearexp&#x27;: &#x27;7&#x27;, &#x27;lastused&#x27;: &#x27;2021&#x27;, &#x27;st_id&#x27;: &#x27;7117205&#x27;}
+request_data: {&#x27;id&#x27;: 7117683, &#x27;language&#x27;: [&#x27;Java&#x27;, &#x27;Python&#x27;], &#x27;yearexp&#x27;: &#x27;7&#x27;, &#x27;lastused&#x27;: &#x27;2021&#x27;, &#x27;st_id&#x27;: &#x27;7117683&#x27;}
 response: {&#x27;status&#x27;: &#x27;true&#x27;, &#x27;msg&#x27;: &#x27;Add  data success&#x27;}
 <br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">API_Tests/test_end_to_end.py::TestEndToEnd::test_add_address</td>
-          <td class="col-duration">5.17</td>
+          <td class="col-duration">0.36</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>url: https://thetestingworldapi.com/api/addresses
-request_data: {&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: &#x27;sample string 1&#x27;, &#x27;City&#x27;: &#x27;sample string 2&#x27;, &#x27;State&#x27;: &#x27;sample string 3&#x27;, &#x27;Country&#x27;: &#x27;sample string 4&#x27;, &#x27;PhoneNumber&#x27;: [{&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}, {&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}]}, &#x27;Current_Address&#x27;: {&#x27;House_Number&#x27;: &#x27;sample string 1&#x27;, &#x27;City&#x27;: &#x27;sample string 2&#x27;, &#x27;State&#x27;: &#x27;sample string 3&#x27;, &#x27;Country&#x27;: &#x27;sample string 4&#x27;, &#x27;PhoneNumber&#x27;: [{&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}, {&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}]}, &#x27;stId&#x27;: &#x27;7117205&#x27;}
+request_data: {&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: &#x27;sample string 1&#x27;, &#x27;City&#x27;: &#x27;sample string 2&#x27;, &#x27;State&#x27;: &#x27;sample string 3&#x27;, &#x27;Country&#x27;: &#x27;sample string 4&#x27;, &#x27;PhoneNumber&#x27;: [{&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}, {&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}]}, &#x27;Current_Address&#x27;: {&#x27;House_Number&#x27;: &#x27;sample string 1&#x27;, &#x27;City&#x27;: &#x27;sample string 2&#x27;, &#x27;State&#x27;: &#x27;sample string 3&#x27;, &#x27;Country&#x27;: &#x27;sample string 4&#x27;, &#x27;PhoneNumber&#x27;: [{&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}, {&#x27;Std_Code&#x27;: &#x27;sample string 1&#x27;, &#x27;Home&#x27;: &#x27;sample string 2&#x27;, &#x27;Mobile&#x27;: &#x27;sample string 3&#x27;}]}, &#x27;stId&#x27;: &#x27;7117683&#x27;}
 response: {&#x27;status&#x27;: &#x27;true&#x27;, &#x27;msg&#x27;: &#x27;Add  data success&#x27;}
 <br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">API_Tests/test_end_to_end.py::TestEndToEnd::test_fetch_final_student_details</td>
-          <td class="col-duration">7.49</td>
+          <td class="col-duration">0.45</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>url: https://thetestingworldapi.com/api/FinalStudentDetails/7117205
-response: {&#x27;status&#x27;: &#x27;true&#x27;, &#x27;data&#x27;: {&#x27;first_name&#x27;: &#x27;surendra1&#x27;, &#x27;middle_name&#x27;: &#x27;kumar&#x27;, &#x27;last_name&#x27;: &#x27;tv&#x27;, &#x27;date_of_birth&#x27;: &#x27;07-11-1993&#x27;, &#x27;TechnicalDetails&#x27;: [{&#x27;id&#x27;: 91881, &#x27;language&#x27;: [&#x27;Java&#x27;, &#x27;Python&#x27;], &#x27;yearexp&#x27;: &#x27;7&#x27;, &#x27;lastused&#x27;: &#x27;2021&#x27;, &#x27;st_id&#x27;: &#x27;7117205&#x27;}], &#x27;Address&#x27;: [{&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;7117205&#x27;}, {&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;7117205&#x27;}]}}
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>url: https://thetestingworldapi.com/api/FinalStudentDetails/7117683
+response: {&#x27;status&#x27;: &#x27;true&#x27;, &#x27;data&#x27;: {&#x27;first_name&#x27;: &#x27;surendra1&#x27;, &#x27;middle_name&#x27;: &#x27;kumar&#x27;, &#x27;last_name&#x27;: &#x27;tv&#x27;, &#x27;date_of_birth&#x27;: &#x27;07-11-1993&#x27;, &#x27;TechnicalDetails&#x27;: [{&#x27;id&#x27;: 91884, &#x27;language&#x27;: [&#x27;Java&#x27;, &#x27;Python&#x27;], &#x27;yearexp&#x27;: &#x27;7&#x27;, &#x27;lastused&#x27;: &#x27;2021&#x27;, &#x27;st_id&#x27;: &#x27;7117683&#x27;}], &#x27;Address&#x27;: [{&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;7117683&#x27;}, {&#x27;Permanent_Address&#x27;: {&#x27;House_Number&#x27;: None, &#x27;City&#x27;: None, &#x27;State&#x27;: None, &#x27;Country&#x27;: None, &#x27;PhoneNumber&#x27;: None}, &#x27;Current_Address&#x27;: None, &#x27;stId&#x27;: &#x27;7117683&#x27;}]}}
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">API_Tests/test_fetch_user_data.py::TestFetchUserData::test_fetch_userdata</td>
+          <td class="col-duration">0.23</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>2
+[&#x27;Michael&#x27;, &#x27;Lindsay&#x27;, &#x27;Tobias&#x27;, &#x27;Byron&#x27;, &#x27;George&#x27;, &#x27;Rachel&#x27;]
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">API_Tests/test_update_user_data.py::TestUpdateUserData::test_update_userdata</td>
+          <td class="col-duration">0.97</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>{&#x27;name&#x27;: &#x27;arun_update&#x27;, &#x27;job&#x27;: &#x27;leader_update&#x27;, &#x27;updatedAt&#x27;: &#x27;2023-02-27T08:11:19.241Z&#x27;}
+arun_update
+leader_update
 <br/></div></td></tr></tbody></table></body></html>
