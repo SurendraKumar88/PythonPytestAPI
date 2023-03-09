@@ -1,6 +1,6 @@
-from Config.config import TestData
-from Pages.LoginPage import LoginPage
-from Tests.test_base import BaseTest
+from UUI_Tests.Config.config import TestData
+from UUI_Tests.Pages.LoginPage import LoginPage
+from UUI_Tests.Tests.test_base import BaseTest
 
 
 class TestLogin(BaseTest):

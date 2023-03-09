@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from Config.config import TestData
-from Pages.BasePage import BasePage
+from UUI_Tests.Config.config import TestData
+from UUI_Tests.Pages.BasePage import BasePage
 
 
 class LoginPage(BasePage):
