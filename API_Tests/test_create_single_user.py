@@ -1,6 +1,7 @@
 import json
 
 import jsonpath
+import pytest
 import requests as requests
 
 
@@ -39,10 +40,4 @@ class TestCreateSingleUser:
         }
 
         return request_data
-
-
-
-
-
-
 
